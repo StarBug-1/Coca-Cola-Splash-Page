@@ -55,3 +55,48 @@ ul li:hover
 {
   color:#EA2124;
 }
+
+figure {
+  margin-top: 50%;
+  margin: auto;
+  width: auto;
+  margin-top: 20%;
+}
+
+.skewedBox {
+  background-color: #C70315;
+  padding: 30px 0;
+  margin-top: -15%;
+  transform: skew(0deg, -15deg) translateY(-120px);
+}
+
+.container {
+  padding: 10px 200px;
+  transform: skew(0deg, -1deg);
+}
+
+.container h1 {
+  padding: 20px 0;
+  margin: 0;
+  font-size: 3em;
+}
+
+.bottomSection {
+  padding: 0 200px 150px;
+}
+
+@media (min-width: 720px) {
+  .skewedBox {
+    margin-top: -20%;
+    transform: skew(0deg, deg) translateY(-120px);
+  }
+  
+}
+
+@media (min-width: 900px) {
+  .skewedBox {
+    margin-top: -25%;
+    transform: skew(0deg, deg) translateY(-120px);
+  }
+  
+}

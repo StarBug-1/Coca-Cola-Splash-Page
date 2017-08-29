@@ -1,0 +1,11 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.subtitle {
+  text-transform: uppercase;
+}
+
+.category {
+  text-transform: uppercase;
+}
